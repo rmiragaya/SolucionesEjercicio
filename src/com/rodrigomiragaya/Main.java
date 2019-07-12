@@ -143,16 +143,13 @@ public class Main {
                     "3. Caballo\n");
             String tipo = s1.nextLine().toLowerCase();
             switch (tipo) {
-                case "1":
-                case "gallina":
+                case "1": case "gallina":
                     stockAnimales.add(new Gallinas(nombreAnimal));
                     break;
-                case "2":
-                case "vaca":
+                case "2": case "vaca":
                     stockAnimales.add(new Vacas(nombreAnimal));
                     break;
-                case "3":
-                case "caballo":
+                case "3": case "caballo":
                     stockAnimales.add(new Caballos(nombreAnimal));
                     break;
                 default:

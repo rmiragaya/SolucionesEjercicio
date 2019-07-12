@@ -25,7 +25,7 @@ public class Gallinas extends Animales{
             System.out.println("Jugando...");
             System.out.println(toString());
         } else {
-            System.out.println("No puede jugar");
+            System.out.println(this.nombre +" No puede jugar");
             System.out.println(toString() + "// Niveles minimos para jugar: E >= 20 y H < 40");
 
         }

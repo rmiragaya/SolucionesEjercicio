@@ -16,7 +16,7 @@ public class Caballos extends Animales{
             this.hambre -= 40;
             System.out.println(toString());
         } else {
-            System.out.println("El caballo de nombre" + this.nombre + " no comió");
+            System.out.println("El caballo de nombre " + this.nombre + " no comió");
         }
     }
 
@@ -29,7 +29,7 @@ public class Caballos extends Animales{
             System.out.println("Jugando...");
             System.out.println(toString());
         } else {
-            System.out.println("No puede jugar");
+            System.out.println(this.nombre + " No puede jugar");
             System.out.println(toString() + " // Niveles minimos para jugar: E >= 50 y H < 25");
         }
     }
