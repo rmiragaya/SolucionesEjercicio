@@ -9,6 +9,10 @@ import java.util.Scanner;
 
 public class Main {
 
+    private static final String DEFAULT = "\u001B[0m";
+    private static final String ROJO = "\u001B[31m";
+
+
     //txt para save y load
     private static final String BACKUP_FILE_NAME = "backListaAnimales.txt";
 
@@ -288,7 +292,7 @@ public class Main {
     //Comprueba si la lista está vacia + print
     private static boolean listaVacia() {
         if (stockAnimales.isEmpty()) {
-            System.out.println("No hay animales ingresados, lista vacia");
+            System.out.println(ROJO +"No hay animales ingresados, lista vacia" + DEFAULT);
             return true;
         }
         return false;
